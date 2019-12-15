@@ -1,1 +1,1 @@
-# ClientServer
+With high computational power and distributed system, inter process communication has become very critical to success of your complete model design. Often student get confuse with basic communication procedure. In this example I created IPC between client and server and performed the file upload, download or delete operation on server. I created wrapper to create client, server and file handling so it will be easy for student to modified it for their own purpose.
