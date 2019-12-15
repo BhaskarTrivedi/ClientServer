@@ -12,19 +12,19 @@ Server Operation
   6) ReceiveServer : Receive message from client
   7) CloseSocket : close client at end of communication
   
-  Client Wrapper: 
-    1) OpenSocket : Open socket
-    2) GetHost : Get host to connect with
-    3) ClientConnect : Connect client to server
-    4) ClientWrite :  Write data for server
-    5) ClientRead : Read data from server
-    6) CloseSocket :  close client at end of communication
-    
-  File handling wrapper
-    1) OpenFile : Open file for basic operation
-    2) CloseFile :  close file after successful operation
-    3) ReadFile : Read file data
-    4) WriteFile : Write data to file
-    5) RemoveFile : Delete file
-    6) RenameFile : Create and rename old file to new file
+ <br/> Client Wrapper: 
+   <br/> 1) OpenSocket : Open socket
+   <br/> 2) GetHost : Get host to connect with
+  <br/>  3) ClientConnect : Connect client to server
+  <br/>  4) ClientWrite :  Write data for server
+  <br/>  5) ClientRead : Read data from server
+  <br/>  6) CloseSocket :  close client at end of communication
+ <br/>   
+ <br/> File handling wrapper
+<br/>    1) OpenFile : Open file for basic operation
+<br/>    2) CloseFile :  close file after successful operation
+<br/>    3) ReadFile : Read file data
+<br/>    4) WriteFile : Write data to file
+<br/>    5) RemoveFile : Delete file
+<br/>    6) RenameFile : Create and rename old file to new file
     
