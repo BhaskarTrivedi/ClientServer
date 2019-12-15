@@ -27,4 +27,18 @@ Server Operation
 <br/>    4) WriteFile : Write data to file
 <br/>    5) RemoveFile : Delete file
 <br/>    6) RenameFile : Create and rename old file to new file
+
+To runcode 
+1) download file to ubuntu machine
+2) run make file from server abd client directory
+  execute make
+	make
+	g++ -g  -c CFileReading.cpp
+	g++ -g  -c CServer.cpp
+	g++ -g  -c ServerMain.cpp
+	g++ -g  -o server CFileReading.o CServer.o ServerMain.o
+
+3) run ./server and ./client
+
+
     
